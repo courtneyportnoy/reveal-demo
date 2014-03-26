@@ -1,0 +1,144 @@
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+		
+	.reveal-modal-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,.8);
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0; 
+		}
+	
+	.reveal-modal {
+		visibility: hidden;
+		top: -17px; 
+		left: 50%;
+		margin-left: -275px;
+		background: #eee url(letter.png) no-repeat -225px -230px;
+  		
+		position: absolute;
+		z-index: 101;
+		padding: 30px 40px 34px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-box-shadow: 0 0 10px rgba(0,0,0,.4);
+  		width: 858px; height: 600px; margin-left: -471px;
+		}
+		
+	.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
+	.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
+	
+	.reveal-modal .close-reveal-modal {
+		font-size: 22px;
+		line-height: .5;
+		position: absolute;
+		top: 8px;
+		right: 11px;
+		color: #aaa;
+		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: bold;
+		cursor: pointer;
+		} 
+
+	#letter-body {
+  		float:left;
+  		font-family: "pragmatica-web",sans-serif;
+		font-style: normal;
+		font-weight: 400;
+  		color: black;
+  		width: 65%;
+  
+	}
+
+	.linkClose {
+  	
+  		font-size: 25px;
+		line-height: .5;
+		position: absolute;
+		top: 8px;
+		right: 11px;
+		color: #aaa;
+		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: bold;
+		cursor: pointer;
+}
+	#letter-sidebar {
+  		margin-top: 0px;
+  		padding-bottom: 38px;
+  		padding-top: 8px;
+  		padding-left: 20px;
+		border-left-width: thin;
+		border-left-color: #797474;
+		border-style: solid;
+  		color: #737373;
+  		margin-top: 25px;
+  		margin-left: 72%;
+  		font-family: "pragmatica-web",sans-serif;
+		font-style: normal;
+		font-weight: 400;
+  		color: black;
+  
+	}
+
+	#letter-sidebar p {
+  		color: #797474;
+	}
+	
+	#letter-sidebar-bottom p {
+  		color: #797474;
+	}
+
+
+
+	#letter-sidebar-bottom {
+  		padding-top: 8px;
+  		padding-left: 20px;
+		border-left-width: thin;
+		border-left-color: #797474;
+		border-style: solid;
+  		color: #737373;
+  		margin-top: 25px;
+  		margin-left: 72%;
+  		font-family: "pragmatica-web",sans-serif;
+		font-style: normal;
+		font-weight: 400;
+  		color: black;
+	  	margin-top: 55px;
+
+  
+	}
+
+
+	 #letter-sidebar-bottom ul {  
+        list-style-type: none; 
+        margin-left: 16px;
+  		color: #797474;
+  	}  
+
+    #letter-sidebar-bottom li:before {  
+     	 content: " - ";  
+    }  
+
+	#letter-logo {
+  		background: url(letter-logo.png) no-repeat;
+  		height: 13%;
+	}
+
+	#signature {
+  	margin-left: -20px;
+  	margin-top: -18px;
+  	height: 82px;
+  	background: url(signature.png);
+	}
+
+
